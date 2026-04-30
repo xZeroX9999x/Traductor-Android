@@ -1,0 +1,19 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Caché de Modelos de Inteligencia Artificial
+~/modelos_ia/
+.huggingface/
+.cache/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db

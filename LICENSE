@@ -1,0 +1,23 @@
+### 4. Instrucciones Finales: Subirlo a GitHub
+
+Abre tu terminal en la carpeta donde tienes guardados estos cuatro archivos (`app.py`, `.gitignore`, `requirements.txt`, `README.md`) y ejecuta estos comandos uno por uno para crear tu primer "Commit" y subirlo a la nube:
+
+```bash
+# 1. Inicializa el repositorio local
+git init
+
+# 2. Añade todos los archivos al seguimiento de git
+git add .
+
+# 3. Crea el primer commit
+git commit -m "Initial commit: Neural Translator offline setup with CLI and Web GUI"
+
+# 4. Renombra la rama principal a 'main' (estándar actual)
+git branch -M main
+
+# 5. Vincula tu repositorio local con el de GitHub
+# (¡REEMPLAZA ESTA URL CON LA DE TU REPOSITORIO VACÍO EN GITHUB!)
+git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+
+# 6. Sube el código
+git push -u origin main
