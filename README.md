@@ -24,4 +24,22 @@ Ideal para funcionar como un microservicio local o integrarse como el motor de t
 1. Clona el repositorio:
    ```bash
    git clone [https://github.com/TU_USUARIO/offline-neural-translator.git](https://github.com/TU_USUARIO/offline-neural-translator.git)
+   
    cd offline-neural-translator
+
+
+  ## 📱 Instalación en Android (Vía Termux)
+
+Debido a la arquitectura de Android y para asegurar la compatibilidad con PyTorch, ejecutamos el traductor dentro de un entorno Ubuntu simulado en Termux.
+
+**1. Preparar Termux e instalar Ubuntu**
+Abre Termux y ejecuta:
+```bash
+pkg update && pkg upgrade -y
+pkg install proot-distro git -y
+proot-distro install ubuntu
+
+proot-distro login ubuntu
+apt update && apt install python3 python3-pip git -y
+git clone [https://github.com/TU_USUARIO/offline-neural-translator.git](https://github.com/TU_USUARIO/offline-neural-translator.git)
+cd offline-neural-translator
